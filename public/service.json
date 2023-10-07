@@ -1,0 +1,44 @@
+[
+    {
+      "id": "1",
+      "name": "Weddings",
+      "image": "https://i.ibb.co/fFT6kd7/wedding1.jpg",
+      "price": 120,
+      "shortDescription": "From exquisite decorations to creating an enchanting ambiance, we craft the perfect setting for your dream wedding."
+    },
+    {
+      "id": "2",
+      "name": "Birthday Parties",
+      "image": "https://i.ibb.co/W0f5CYk/hb5.jpg",
+      "price": 135,
+      "shortDescription": "Bringing joy and excitement to celebrate another year of life, we plan and organize memorable birthday parties for all ages."
+    },
+    {
+      "id": "3",
+      "name": "Anniversaries",
+      "image": "https://i.ibb.co/PM83pQd/annivarsary3.jpg",
+      "price": 110,
+      "shortDescription": "Honoring the years of togetherness, we curate special anniversary events filled with love, memories, and surprises."
+    },
+    {
+      "id": "4",
+      "name": "Engagement Parties",
+      "image": "https://i.ibb.co/S7q97Fd/engagement2.jpg",
+      "price": 125,
+      "shortDescription": "Celebrating the promise of forever, we create engaging engagement parties to commemorate the beautiful journey ahead."
+    },
+    {
+      "id": "5",
+      "name": "Private Parties",
+      "image": "https://i.ibb.co/kxkTG5J/private2.jpg",
+      "price": 140,
+      "shortDescription": "Crafting personalized and intimate gatherings, we make your private parties memorable and tailored to your desires."
+    },
+    {
+      "id": "6",
+      "name": "Baby Shower",
+      "image": "https://i.ibb.co/Ykms6K3/baby4.jpg",
+      "price": 105,
+      "shortDescription": "Welcoming a new life into the world, we organize heartwarming baby showers filled with love, laughter, and blessings."
+    }
+  ]
