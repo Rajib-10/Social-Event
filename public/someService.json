@@ -1,0 +1,38 @@
+[
+    {
+      "id": "101",
+      "name": "Winter Wonderland Wedding",
+      "image": "https://i.ibb.co/G5cRmr0/wedding3.jpg",
+      "shortDescription": "A magical winter-themed wedding filled with snowflakes, love, and warm embraces."
+    },
+    {
+      "id": "102",
+      "name": "Megan's 30th Birthday Bash",
+      "image": "https://i.ibb.co/LvzhsQM/hb3.jpg",
+      "shortDescription": "A fantastic 30th birthday celebration for Megan with friends, music, and laughter."
+    },
+    {
+      "id": "103",
+      "name": "10th Anniversary Gala",
+      "image": "https://i.ibb.co/Cwr9fHH/annivarsary2.jpg",
+      "shortDescription": "A glamorous gala to commemorate a decade of love, commitment, and beautiful memories."
+    },
+    {
+      "id": "104",
+      "name": "Charming Garden Engagement",
+      "image": "https://i.ibb.co/D7dLqpD/engagement3.jpg",
+      "shortDescription": "A romantic engagement party set in a charming garden, celebrating the love of two souls."
+    },
+    {
+      "id": "105",
+      "name": "Elegant Masquerade Ball",
+      "image": "https://i.ibb.co/pLKBQWg/private3.jpg",
+      "shortDescription": "An elegant and mysterious masquerade ball filled with opulence, masks, and intrigue."
+    },
+    {
+      "id": "106",
+      "name": "Sunset Baby Shower",
+      "image": "https://i.ibb.co/4Vs5MNz/baby2.jpg",
+      "shortDescription": "A beautiful baby shower set against the backdrop of a mesmerizing sunset, welcoming a new life."
+    }
+  ]

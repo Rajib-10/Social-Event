@@ -1,5 +1,6 @@
 import Service from "./Services";
 import Slider from "./Slider";
+import SomeService from "./SomeService";
 
 
 
@@ -8,6 +9,7 @@ const Home = () => {
         <div>
            <Slider  />
            <Service />
+           <SomeService />
         </div>
     );
 };
