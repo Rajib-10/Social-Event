@@ -1,0 +1,56 @@
+[
+    {
+      "id": "1",
+      "name": "Fall Wedding Extravaganza",
+      "date": "November 15, 2023",
+      "time": "3:30 PM",
+      "location": "Rose Garden Hall",
+      "description": "Join us for a beautiful fall-themed wedding celebration filled with love, laughter, and unforgettable memories.",
+      "image": "https://i.ibb.co/pZwcR8m/wedding2.jpg"
+    },
+    {
+      "id": "2",
+      "name": "Alice's Sweet 16 Birthday ",
+      "date": "December 10, 2023",
+      "time": "5:00 PM",
+      "location": "Banquet Hall",
+      "description": "Let's make Alice's 16th birthday extra special with a magical celebration full of surprises and delightful moments.",
+      "image": "https://i.ibb.co/hdBF7Wn/hb1.jpg"
+    },
+    {
+      "id": "3",
+      "name": "Silver Jubilee Anniversary ",
+      "date": "January 5, 2024",
+      "time": "6:45 PM",
+      "location": "Grand Palace Hotel",
+      "description": "Join us in celebrating 25 years of love and togetherness with a glamorous and heartwarming anniversary gala.",
+      "image": "https://i.ibb.co/5n7ZrDs/anniversary1.jpg"
+    },
+    {
+      "id": "4",
+      "name": " Garden Engagement",
+      "date": "February 20, 2024",
+      "time": "4:30 PM",
+      "location": "Botanical Gardens",
+      "description": "Embark on a beautiful journey of love with an engagement party amidst the magic of nature.",
+      "image": "https://i.ibb.co/1KwdhPB/engagement1.jpg"
+    },
+    {
+      "id": "5",
+      "name": "VIP Private Party Experience",
+      "date": "March 18, 2024",
+      "time": "3:15 PM",
+      "location": " Beverly Hills",
+      "description": "Indulge in a luxurious and exclusive private party experience designed just for you and your guests.",
+      "image": "https://i.ibb.co/0tLvD1j/private1.jpg"
+    },
+    {
+      "id": "6",
+      "name": "Sunny Day Baby Shower",
+      "date": "April 12, 2024",
+      "time": "7:00 PM",
+      "location": "Sunflower Garden",
+      "description": "Celebrate the upcoming arrival of a new life with a joyful and sun-filled baby shower.",
+      "image": "https://i.ibb.co/8gTCxYG/baby1.jpg"
+    }
+  ]
