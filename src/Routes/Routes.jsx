@@ -9,6 +9,7 @@ import Contact from "../Pages/Contact/Contact";
 import Gallery from "../Pages/Gallery/Gallery";
 import Event from "../Pages/Event/Event";
 import Details from "../Pages/Details/Details";
+import PrivateRouter from "./PrivateRouter";
 
 
 const Routes = createBrowserRouter([
@@ -39,15 +40,15 @@ const Routes = createBrowserRouter([
             },
             {
                 path: "/gallery",
-                element: <Gallery />
+                element: <PrivateRouter><Gallery /></PrivateRouter>
             },
             {
                 path: "/event",
-                element: <Event />
+                element: <PrivateRouter><Event /></PrivateRouter>
             },
             {
                 path: "/details/:id",
-                element: <Details />
+                element: <PrivateRouter><Details /></PrivateRouter>
             }
         ]
     }

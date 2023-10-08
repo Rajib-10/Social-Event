@@ -1,12 +1,42 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import { FcGoogle} from 'react-icons/fc';
+import { useContext } from "react";
+import { AuthContext } from "../../providers/AuthProvider";
+import toast, { Toaster } from "react-hot-toast";
+
+
 const Login = () => {
+    const location = useLocation()
+    const navigate = useNavigate()
+    const {googleLogin,signInUser} = useContext(AuthContext)
 
     const handleSubmit =(e)=>{
         e.preventDefault()
         const email = e.target.email.value
         const password = e.target.password.value
-        console.log(email,password)
+        
+        // user sign in 
+
+        signInUser(email,password)
+        .then(()=>{
+            toast.success("User Logged in Successfully")
+            
+            navigate(location?.state ? location.state : "/")
+        })
+        .catch(error=>{
+            toast.error(`${error.message}`)
+        })
+    }
+
+    const handleGoogleLogIn=()=>{
+        googleLogin()
+        .then(()=>{
+            toast.success("user logged in successfully using google")
+            navigate(location?.state ? location.state : "/")
+        })
+        .catch(error=>{
+            toast.error(`${error.message}`)
+        })
     }
     return (
         <div className="hero h-[80vh] bg-base-200">
@@ -33,10 +63,11 @@ const Login = () => {
                 </div>
             </form>
             <p className="text-center">Or Continue With:</p>
-            <p className="text-center cursor-pointer flex items-center justify-center gap-2"><FcGoogle/>Google</p>
+            <p  className="text-center cursor-pointer flex items-center justify-center gap-2"><button onClick={handleGoogleLogIn}  className="btn btn-ghost" ><FcGoogle/>Google</button></p>
             <span className="p-4 text-center">Do not have an account?<Link className="font-bold text-blue-700" to="/register">Register</Link></span>
             </div>
         </div>
+        <Toaster />
         </div>
     );
 };

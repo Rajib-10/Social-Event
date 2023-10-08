@@ -1,12 +1,49 @@
-import { Link } from "react-router-dom";
+import { useContext } from "react";
+import { Link, useNavigate } from "react-router-dom";
+import { AuthContext } from "../../providers/AuthProvider";
+import toast, { Toaster } from "react-hot-toast";
+
 
 
 const Register = () => {
+    const navigate = useNavigate()
+    const {createUser, updateUserProfile,userLogOut} = useContext(AuthContext)
     const handleSubmit =(e)=>{
         e.preventDefault()
+        const name = e.target.name.value
+        const photo = e.target.image.value
         const email = e.target.email.value
         const password = e.target.password.value
-        console.log("register is clicked",email,password)
+        
+        // creating user 
+        if(!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)){
+            return toast.error("Invalid Email.")
+        }
+        if(password.length <6){
+            return toast.error("password is less than 6 characters")
+        }
+        if(!/[A-Z]/.test(password)){
+            return toast.error("password  don't have a capital letter")
+        }
+        if(!/[!@#$%^&*(),.?":{}|<>]/.test(password)){
+            return toast.error("password  don't have a special character")
+        }
+        
+        createUser(email,password)
+        .then(()=>{
+           
+            updateUserProfile(name,photo)
+            .then(()=>{
+                toast.success("User created Successfully")
+                userLogOut()
+                navigate('/login')
+            })
+            .catch()
+
+        })
+        .catch(error=>{
+            toast.error(`${error.message}`)
+        })
     }
     return (
         <div className="hero h-screen bg-base-200">
@@ -47,6 +84,7 @@ const Register = () => {
             <span className="p-4 text-center">Already have an account?<Link className="font-bold text-blue-700" to="/login">Login</Link></span> 
             </div>
         </div>
+        <Toaster />
         </div>
     );
 };

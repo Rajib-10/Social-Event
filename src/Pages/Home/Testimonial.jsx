@@ -1,11 +1,19 @@
+import { useEffect } from "react";
 import profile1 from "../../../src/assets/profile/men1.jpg"
 import profile2 from "../../../src/assets/profile/men2.jpg"
 import profile3 from "../../../src/assets/profile/men3.jpg"
 import profile11 from "../../../src/assets/profile/women.jpg"
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Testimonial = () => {
+	useEffect(()=>{
+		AOS.init({duration: 2000})
+	},[])
     return (
-        <section className="my-8  ">
+        <div className="my-8" data-aos="fade-right"
+		data-aos-offset="300"
+		data-aos-easing="ease-in-sine" >
 	<div className="container flex flex-col items-center mx-auto mb-4 md:p-4 md:px-12">
 		<h1 className="p-4 text-4xl font-semibold  text-center">What our customers are saying about us</h1>
 	</div>
@@ -62,7 +70,7 @@ const Testimonial = () => {
 			</div>
 		</div>
 	</div>
-</section>
+</div>
     );
 };
 

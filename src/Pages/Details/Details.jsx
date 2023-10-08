@@ -25,7 +25,7 @@ const Details = () => {
                     <a rel="noopener noreferrer" href="#" className="block">
                         <h3 className="text-xl font-semibold dark:text-violet-400">{details.name}</h3>
                     </a>
-                    <p className="leadi dark:text-gray-400">{details.shortDescription}</p>
+                    <p className=" dark:text-gray-400">{details.shortDescription}</p>
                 </div>
             </div>
         </div>
