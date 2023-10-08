@@ -13,17 +13,19 @@ const Contact = () => {
             <h1 className="font-bold text-2xl text-center mt-10 mb-4">Get in touch with us!</h1>
 
             <div className="flex flex-col md:flex-row justify-evenly items-center gap-6">
-                <div className="text-center">
-                    <BsPhone  className="mx-auto text-xl" />
-                    <h1 className="font-semibold">Phone</h1>
-                    <p>+880 123 456 789</p>
-                    <p>+880 123 456 789</p>
-                </div>
+                
                 <div className="text-center">
                     <MdOutlineLocationOn className="mx-auto text-xl" />
                     <h1 className="font-semibold">Address</h1>
                     <p>123, Main Road Dhanmondi</p>
                     <p>Dhaka-1205 Bangladesh</p>
+                </div>
+
+                <div className="text-center">
+                    <BsPhone  className="mx-auto text-xl" />
+                    <h1 className="font-semibold">Phone</h1>
+                    <p>+880 123 456 789</p>
+                    <p>+880 123 456 789</p>
                 </div>
 
                 <div className="text-center">
