@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unknown-property */
 /* eslint-disable react/prop-types */
-import { FaClock,FaLocationArrow } from 'react-icons/fa';
+import { FaCalendar,FaLocationArrow } from 'react-icons/fa';
 
 const SingleUpcoming = ({singleUpcoming}) => {
     const {name,date,time,image,description,location} = singleUpcoming || {}
@@ -30,7 +30,7 @@ const SingleUpcoming = ({singleUpcoming}) => {
      
     </div>
     <p className=" font-sans text-base font-medium leading-relaxed text-inherit antialiased flex items-center gap-2">
-      <FaClock />{date}
+      <FaCalendar />{date}
     </p>
   </div>
   <div className="avatar indicator absolute top-3 right-8">
