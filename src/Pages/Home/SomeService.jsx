@@ -11,6 +11,7 @@ const SomeService = () => {
         .then(result=>result.json())
         .then(data => setSomeService(data))
         AOS.init({duration: 2000})
+        AOS.refresh()
     },[])
     return (
         <div>

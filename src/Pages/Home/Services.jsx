@@ -10,6 +10,7 @@ const Services = () => {
         .then(result=>result.json())
         .then(data => setServices(data))
         AOS.init({duration: 2000})
+        AOS.refresh()
     },[])
     return (
         <div className="space-y-4 py-10">

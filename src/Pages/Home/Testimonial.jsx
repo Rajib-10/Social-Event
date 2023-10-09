@@ -9,6 +9,7 @@ import 'aos/dist/aos.css';
 const Testimonial = () => {
 	useEffect(()=>{
 		AOS.init({duration: 2000})
+		AOS.refresh()
 	},[])
     return (
         <div className="my-8" data-aos="fade-right"
