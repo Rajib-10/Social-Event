@@ -1,7 +1,28 @@
 
 # Social Event
 
-Donation Campaign is a simple react project where we are exploring react router,react private router as well as firebase authentication.
+Social Event is a simple react project where we are exploring react router,react private router as well as firebase authentication.
+
+
+# Live Link:    [Social Event](http://motionless-change.surge.sh/)
+
+
+#### Add at least five Project features:
+
+* **Navigation with Navbar:**  
+     users to easily navigate different pages like  home, contact,about,gallery and events page.
+
+
+* **Engaging Home Page**  
+    Here user can see our services and some of our service those we have already finished.Services and some of service will grab user attention.
+
+* **Contact Page for Inquiries**    
+     User can reach out for inquiries or event bookings.
+
+* **Gallery for Visual Showcase:**  
+    High-quality images can enhance the impact.
+* **Upcoming Events Display:**   
+     Display upcoming events,event names, dates, descriptions, and any additional important information. 
 
 <div align="center">
   <img height="60" src="https://edurev.gumlet.io/AllImages/original/ApplicationImages/CourseImages/944e5d47-8c55-4a89-91e5-22ab5f2798fc_CI.png">
@@ -25,7 +46,7 @@ console.log(greetign);
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>A.{} is the right answer.greetign is assign as empty object and 'A' is the correct representation of empty object.ReferenceError is type error.Since greetign is empty object it can not be undefined</i>
 
 </p>
 </details>
@@ -50,7 +71,7 @@ sum(1, "2");
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>I think the answer is 'C'. In javascript when we try to sum a number and string then number and string will be concatenate and sum will be string. </i>
 
 </p>
 </details>
@@ -76,7 +97,7 @@ console.log(food);
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>A: `['🍕', '🍫', '🥑', '🍔']` is the correct answer.because info.favoriteFood is the property of the info.we can change the value of info property but this does not change the original food array.</i>
 
 </p>
 </details>
@@ -101,7 +122,7 @@ console.log(sayHi());
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>B: `Hi there, undefined` is the correct answer.sayHi is a function.It takes parameter name.Since sayHi() is called without passing argument so name will be undefined inside the function.</i>
 
 </p>
 </details>
@@ -129,7 +150,7 @@ console.log(count);
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>C: 3 is the correct answer because if condition will be true for 1,2,3.since if condition is true for 3 times so count will be increase 3 times and count will be 3.for 0 if condition will not execute.</i>
 
 </p>
 </details>
