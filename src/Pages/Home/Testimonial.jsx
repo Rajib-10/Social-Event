@@ -1,8 +1,4 @@
 import { useEffect } from "react";
-import profile1 from "../../../src/assets/profile/men1.jpg"
-import profile2 from "../../../src/assets/profile/men2.jpg"
-import profile3 from "../../../src/assets/profile/men3.jpg"
-import profile11 from "../../../src/assets/profile/women.jpg"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -16,7 +12,7 @@ const Testimonial = () => {
 		data-aos-offset="300"
 		data-aos-easing="ease-in-sine" >
 	<div className="container flex flex-col items-center mx-auto mb-4 md:p-4 md:px-12">
-		<h1 className="p-4 text-4xl font-semibold  text-center">What our customers are saying about us</h1>
+		<h1 className="p-4 text-xl md:text-2xl lg:text-4xl font-semibold  text-center">What our customers are saying about us</h1>
 	</div>
 	<div className="container flex flex-col items-center justify-center mx-auto lg:flex-row lg:flex-wrap lg:justify-evenly lg:px-10">
 		<div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg">
@@ -27,7 +23,7 @@ const Testimonial = () => {
 				</p>
 			</div>
 			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-base-300">
-				<img src={profile2} alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-700" />
+				<img src="https://i.ibb.co/KL306HY/men2.jpg" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-700" />
 				<p className="text-xl font-semibold ">Ahmed Khan</p>
 				<p className="text-sm uppercase"> Business Consultant, Chittagong</p>
 			</div>
@@ -40,7 +36,7 @@ const Testimonial = () => {
 				</p>
 			</div>
 			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-base-300">
-				<img src={profile3} alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-700" />
+				<img src="https://i.ibb.co/1nZ3D96/men3.jpg" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-700" />
 				<p className="text-xl font-semibold ">Farhan Ahmed</p>
 				<p className="text-sm uppercase">HR Manager, Dhaka</p>
 			</div>
@@ -52,7 +48,7 @@ const Testimonial = () => {
 				</p>
 			</div>
 			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-base-300">
-				<img src={profile11} alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-700" />
+				<img src="https://i.ibb.co/RhT1VwS/ayo-ogunseinde-6-W4-F62s-N-y-I-unsplash.jpg" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-700" />
 				<p className="text-xl font-semibold ">Ayesha Khan</p>
 				<p className="text-sm uppercase">Marketing Executive, Dhaka</p>
 			</div>
@@ -65,7 +61,7 @@ const Testimonial = () => {
 				</p>
 			</div>
 			<div className="flex flex-col items-center justify-center p-8 rounded-b-lg bg-base-300">
-				<img src={profile1} alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-700" />
+				<img src="https://i.ibb.co/cQdXTTs/men1.jpg" alt="" className="w-16 h-16 mb-2 -mt-16 bg-center bg-cover rounded-full dark:bg-gray-500 dark:bg-gray-700" />
 				<p className="text-xl font-semibold ">Hasan Mahmud</p>
 				<p className="text-sm uppercase">IT Professional, Khulna</p>
 			</div>

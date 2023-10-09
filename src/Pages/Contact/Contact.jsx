@@ -10,7 +10,7 @@ const Contact = () => {
                 <img className="h-[70vh] w-full object-cover opacity-60" src={contactImg} alt="" />
             </div>
 
-            <h1 className="font-bold text-2xl text-center mt-10 mb-4">Get in touch with us!</h1>
+            <h1 className="font-bold text-xl md:text-2xl text-center mt-10 mb-4">Get in touch with us!</h1>
 
             <div className="flex flex-col md:flex-row justify-evenly items-center gap-6">
                 
@@ -36,12 +36,12 @@ const Contact = () => {
                 </div>
             </div>
             <div className="text-center py-10">
-                <h1 className="font-bold text-2xl mb-3">If You Got Any Question</h1>
-                <h1 className="font-bold text-xl mb-4">Do Not Mistake to Send Us Message</h1>
-                <form className="space-y-4">
-                    <input className="px-4 py-3 border rounded-md" type="text" name="name" placeholder="Your Name..." /> <br />
-                    <input className="px-4 py-3 border rounded-md" type="email" name="email" placeholder="Email..."  /><br />
-                    <textarea className="px-4 py-3 border" name="textarea" placeholder="Message..." cols="22" rows="5"></textarea><br />
+                <h1 className="font-bold text-xl md:text-2xl mb-3">If You Got Any Question</h1>
+                <h1 className="font-bold text-lg md:text-xl mb-4">Do Not Mistake to Send Us Message</h1>
+                <form className="space-y-4 ">
+                    <input className="px-4 py-3 border rounded-md w-full md:w-3/4 lg:w-1/2" type="text" name="name" placeholder="Your Name..." /> <br />
+                    <input className="px-4 py-3 border rounded-md w-full md:w-3/4 lg:w-1/2" type="email" name="email" placeholder="Email..."  /><br />
+                    <textarea className="px-4 py-3 border w-full md:w-3/4 lg:w-1/2" name="textarea" placeholder="Message..." cols="22" rows="5"></textarea><br />
                     <input className="btn btn-primary" type="button" value="Send Message" />
                 </form>
                 <h1 className="py-7 text-xl font-bold">Connect with Us...</h1>

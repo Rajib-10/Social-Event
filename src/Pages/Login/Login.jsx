@@ -39,7 +39,7 @@ const Login = () => {
         })
     }
     return (
-        <div className="hero h-[80vh] bg-base-200">
+        <div className="hero  bg-base-200">
         <div className="hero-content flex-col lg:flex-row-reverse">
             <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
             <form onSubmit={handleSubmit} className="card-body">
@@ -47,13 +47,13 @@ const Login = () => {
                 <label className="label">
                     <span className="label-text">Email</span>
                 </label>
-                <input type="email" placeholder="Email..." name="email" className="input input-bordered" required />
+                <input type="email" placeholder="Email..." name="email" className="input input-bordered w-full" required />
                 </div>
                 <div className="form-control">
                 <label className="label">
                     <span className="label-text">Password</span>
                 </label>
-                <input type="password" placeholder="Password" name="password" className="input input-bordered" required />
+                <input type="password" placeholder="Password" name="password" className="input input-bordered w-full" required />
                 <label className="label">
                     <span className="label-text-alt link link-hover">Forgot password?</span>
                 </label>

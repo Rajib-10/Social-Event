@@ -18,7 +18,7 @@ const Services = () => {
 		data-aos-offset="300"
 		data-aos-easing="ease-in-sine">
             <h1 className="font-bold text-center text-2xl">Services</h1>
-            <h1 className="font-bold text-center text-4xl">Event Service We Provide</h1>
+            <h1 className="font-bold text-center text-xl lg:text-4xl">Event Service We Provide</h1>
             </div>
            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
            {

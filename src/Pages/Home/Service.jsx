@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 const Service = ({service}) => {
   const {id,name,image,price,shortDescription} = service || {}
     return (
-        <div className="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+        <div className="relative flex  flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
         <div className="relative mx-4 mt-4 h-96 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700">
           <img className="h-96 w-full object-cover" src={image}/>
         </div>

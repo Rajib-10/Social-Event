@@ -97,7 +97,7 @@ const Navbar = () => {
           <img src={user.photoURL} />
         </div>
       </label>
-      <span>{user.displayName}</span>
+      <span className="hidden md:block">{user.displayName}</span>
       <button onClick={handleLogOut} className="btn btn-sm btn-ghost">log Out</button>
     </> :
     <Link to="/login" className="btn btn-sm btn-neutral">Login</Link>

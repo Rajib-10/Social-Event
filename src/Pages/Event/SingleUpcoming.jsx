@@ -5,7 +5,7 @@ import { FaCalendar,FaLocationArrow } from 'react-icons/fa';
 const SingleUpcoming = ({singleUpcoming}) => {
     const {name,date,time,image,description,location} = singleUpcoming || {}
     return (
-        <div className="relative flex max-w-[24rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+        <div className="relative  flex max-w-[24rem] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
   <div className="relative m-0 overflow-hidden rounded-none bg-transparent bg-clip-border text-gray-700 shadow-none">
     <img className="h-[300px] w-full object-cover rounded-xl"
       src={image}
@@ -13,10 +13,10 @@ const SingleUpcoming = ({singleUpcoming}) => {
     />
   </div>
   <div className="p-6">
-    <h4 className="block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+    <h4 className="block  text-lg md:text-xl font-semibold   text-blue-gray-900 antialiased">
       {name}
     </h4>
-    <p className="mt-3 block font-sans text-xl font-normal leading-relaxed text-gray-700 antialiased">
+    <p className="mt-3 block  font-normal leading-relaxed text-gray-700 antialiased">
      {description}
     </p>
   </div>
@@ -26,10 +26,10 @@ const SingleUpcoming = ({singleUpcoming}) => {
       
       
 
-      <h1 className="font-medium flex items-center gap-2"><FaLocationArrow />{location}</h1>
+      <h1 className="md:font-medium flex items-center gap-2 text-sm"><FaLocationArrow />{location}</h1>
      
     </div>
-    <p className=" font-sans text-base font-medium leading-relaxed text-inherit antialiased flex items-center gap-2">
+    <p className="  text-sm md:font-medium leading-relaxed text-inherit antialiased flex items-center gap-2">
       <FaCalendar />{date}
     </p>
   </div>
